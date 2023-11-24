@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useUser } from '../../utils/UserContext';
-import FollowingPosts from '../FollowingPost/FollowingPost';
+
 
 const UsersList = () => {
   const [users, setUsers] = useState([]);
